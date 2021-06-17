@@ -1,0 +1,77 @@
+.appointments-wrapper {
+  margin: 30px 30px 30px 0;
+
+  h5 {
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    color: #474747;
+  }
+
+  h6 {
+    font-weight: 400 !important;
+  }
+
+  .appointments {
+    margin: 25px 0px 0px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 30px 45px;
+    border-radius: 3px;
+
+    th,
+    td {
+      font-size: 14px;
+      color: #474747;
+    }
+
+    i {
+      font-size: 16px;
+      color: #474747;
+    }
+
+    .icon {
+      color: #e73d8e;
+    }
+
+    .form-control {
+      padding-left: 20px;
+      font-size: 14px;
+    }
+
+    .appointments-filter-submit-btn {
+      background-color: #e73d8e;
+      color: #fff;
+      padding: 5px 20px 6px 20px;
+      font-size: 14px;
+    }
+
+    .react-datepicker {
+      button {
+        outline: none !important;
+      }
+    }
+
+    .reload-btn {
+      margin-left: 20px;
+      cursor: pointer;
+
+      .fa-refresh {
+        color: #e73d8e;
+        margin-top: 7px;
+      }
+    }
+  }
+}
+
+.doc-image-bg {
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #474747;
+}
+
+.Toastify__close-button {
+  outline: none !important;
+}

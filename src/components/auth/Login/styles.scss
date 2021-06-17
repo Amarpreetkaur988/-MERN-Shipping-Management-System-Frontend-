@@ -1,0 +1,30 @@
+.admin-login {
+  background: linear-gradient(to right, #00b4db, #0083b0);
+  padding-top: 200px;
+  height: 100vh;
+  max-height: 100%;
+  overflow-y: auto;
+
+  h5 {
+    padding-bottom: 15px;
+    text-align: left;
+  }
+
+  .login-btn {
+    background-color: #e73d8e;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px 9px 20px;
+    border: none;
+  }
+
+  .fa {
+    color: #e73d8e;
+  }
+
+  a {
+    color: #474747;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}

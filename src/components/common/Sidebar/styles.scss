@@ -1,0 +1,101 @@
+$sidebar-bg-color: #1b2430;
+
+$sidebar-color: #123148;
+$highlight-color: #e73d8e;
+$icon-bg-color: #1b2430;
+$submenu-bg-color: #fff;
+$submenu-bg-color-collapsed: #1b2430;
+$breakpoint-xs: 480px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+.pro-sidebar.collapsed {
+  width: 0 !important;
+  min-width: 0 !important;
+}
+
+.pro-sidebar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh !important;
+  z-index: 1021 !important;
+  transition: all ease-in 0s !important;
+
+  .pro-menu-item {
+    .pro-inner-item {
+      display: block !important;
+      padding-top: 5px !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  .pro-sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      color: #123148;
+
+      img {
+        width: 180px;
+        padding-top: 8px;
+      }
+
+      .logo-small {
+        width: 40px !important;
+        padding-top: 8px;
+      }
+    }
+  }
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+  height: 70px;
+  background-color: #fff;
+  border: none !important;
+  color: #123148;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item > div > ul {
+  padding: 15px 0 15px 20px !important;
+}
+
+.pro-sidebar.collapsed
+  .pro-menu
+  > ul
+  > .pro-menu-item.pro-sub-menu
+  > .pro-inner-list-item
+  > .popper-inner {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu
+  .pro-inner-list-item
+  .pro-inner-item:before {
+  margin-bottom: 3px;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+  display: block !important;
+}
+.pro-icon-wrapper {
+  background: transparent !important;
+}
+.pro-sidebar > .pro-sidebar-inner {
+  background-color: #e3f6fb !important;
+}
+
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+h3.logo-small img {
+  width: 51px;
+}
+@media (max-width: 767px) {
+  // .pro-sidebar{display:none;}
+}

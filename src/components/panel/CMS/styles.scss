@@ -1,0 +1,22 @@
+.add-about-wrapper {
+  margin: 40px 30px;
+
+  h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #474747;
+  }
+
+  .ck.ck-editor__main > .ck-editor__editable {
+    min-height: 450px;
+  }
+
+  .submit-btn,
+  .add-sub-question-btn {
+    background-color: #258292;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 30px;
+    margin-top: 20px;
+  }
+}

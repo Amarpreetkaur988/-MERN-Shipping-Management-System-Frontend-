@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+  }
+  
+  .form-control {
+    border-radius: 0;
+    outline: none;
+  
+    &:focus {
+      border-color: #E73D8E;
+    }
+  }
+  
+  .btn {
+    border-radius: 0;
+    outline: none;
+  }
+  
+  h6 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #474747;
+  }
+  
+  h5 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #474747;
+  }
+  
+  h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #474747;
+  }
+  
+  /* ----------------------- Input Icons -------------------------- */
+  span.toggle-sidebar-mobile-menu{display:none;}
+  .input-icons i {
+    position: absolute;
+  }
+  .icon {
+    padding: 10px;
+  }
+  
+  /*---------------------------- scroll bar ------------------------------*/
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #E73D8E;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:#E73D8E;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #E73D8E;
+  }
+  ::-webkit-scrollbar-track {
+    background: #b5b5b5;
+    border: 0px none #b5b5b5;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  @media (min-width:767px) and (max-width:1025px){
+  
+    span.toggle-sidebar-menu {
+      display: none;
+    }
+    span.toggle-sidebar-mobile-menu {
+      float: left;
+      left: 20px;
+      position: absolute;
+      display: inline-block;
+    }
+    .pro-sidebar.md {
+      position: fixed;
+      left: -270px;
+  }
+  .pro-sidebar.md.toggled{left:0;}
+  .main{padding-left:30px!important;}
+  .pro-sidebar-header i.fa.fa-times {
+    position: absolute;
+    right: 11px;
+    z-index: 1000000000;
+    font-size: 20px;
+  }
+  .pro-sidebar .pro-sidebar-header {
+    justify-content: left!important;
+    align-items: center;
+    padding-left: 16px;
+  }
+  .doctor-details .basic-details .details-image {
+    max-width: 85%!important;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+  .patient-details .basic-details .details-image {
+    width: 59%!important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+    .doctor-details > .row.mx-0 > .col-md-3.pl-0{flex: 0 0 33.333%;
+      max-width: 33.333%;}
+    
+    .doctor-details > .row.mx-0 > .col-md-9.pr-0 {flex: 0 0 66.66667%;
+      max-width: 66.66667%;}
+  
+  }
+  @media (min-width:767px) and (max-width:991px){
+    .patient-details > .row.mx-0 > .col-md-4.pl-0{flex: 0 0 100%;
+      max-width: 100%;padding: 00;}
+      .patient-details .basic-details .details-image {
+        width: 100px!important;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .profile-wrapper .row.mx-0.p-custom > .col-md-3.pl-0 { flex: 0 0 100%;
+      max-width: 100%;padding:0;}
+      .profile-wrapper .row.mx-0.p-custom > .col-md-9.pr-0{ flex: 0 0 100%;
+        max-width: 100%;padding:0;margin-top:20px;}
+      .profile-wrapper .profile-img img {
+        width: 100px !important;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .profile-wrapper .profile-img label {
+      width: 150px;
+      margin: 0 auto;
+      margin-top: 20px;
+  }
+    .patient-details > .row.mx-0 > .col-md-8.pr-0 {flex: 0 0 100%;
+      max-width: 100%;padding: 00;margin-top: 30px;}
+      
+  
+  
+      .doctor-details > .row.mx-0 > .col-md-3.pl-0{flex: 0 0 100%;
+        max-width: 100%;padding: 00;}
+        .doctor-details .basic-details .details-image {
+          width: 100px !important;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      height: 100px;
+      object-fit: cover;
+      }
+      .doctor-details > .row.mx-0 > .col-md-9.pr-0 {flex: 0 0 100%;
+        max-width: 100%;padding: 00;margin-top: 30px;}
+  
+  }
+  @media (max-width:767px) {
+  
+    .row.mx-0 .col-md-12.px-0 > div{margin-left:0!important;margin: 0;padding-left: 0!important;padding: 0 !important;}
+    .row.mx-0 .col-md-12.px-0 {
+      padding: 0 15px!important;    padding-top: 20px!important;
+  }
+  h6.results {
+    margin: 0;
+    padding: 0;
+    margin-top: 13px!important;
+    margin-left: 0;
+    font-size: 12px!important;
+  }
+  .pagination-wrapper {
+    margin-top: 13px;
+    font-size: 14px !important;
+    float: left;
+  }
+  .container-fluid.dashboard .col-md-4.pl-0 {
+    padding: 0;
+  }
+  .container-fluid.dashboard .col-md-6.pl-0 {
+    padding: 0;
+  }
+  .container-fluid.dashboard .col-md-6 {  padding: 0;}
+  .container-fluid.dashboard .row.mx-0 .col-md-12.px-0 {
+    padding: 0!important;
+    margin-top: 0;
+  }
+  .container-fluid.dashboard .recent-appointments {
+    margin-top: 30px!important;
+  }
+  span.toggle-sidebar-menu {
+    left: 20px!important;
+  }
+  .navbar #navbar-user-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 30px!important;
+    height: 30px!important;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+  }
+  .navbar .navbar-nav li {
+    padding-left: 10px!important;
+  }
+   a#auth-user-dropdown {
+    padding-left: 0!important;
+  }
+  .add-sub-admin-wrapper .add-sub-admin{padding:15px!important;}
+  .col-md-6.pl-0{padding:0!important;}
+  .col-md-6.pr-0{padding:0!important;}
+  .col-md-3.pr-0{padding:0!important;}
+  .col-md-3.pl-0{padding:0!important;}
+  .manage-subadmin-wrapper .manage-subadmin {
+   
+    padding: 15px!important;
+   
+  }
+  .manage-subadmin-wrapper .manage-subadmin .col-md-5.pr-0 {
+    padding: 0;
+  }
+  .custom_class {
+    padding: 15px!important;
+  }
+  .custom_class .col-md-7.pl-0 {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    float: left;
+  }
+  .custom_class .col-md-5.pr-0 {
+    width: auto;
+    display: inline-block;
+    /* padding: 0; */
+    width: 58%;
+  }
+  .custom_class .pagination-wrapper {
+    margin-top: 13px;
+    font-size: 14px !important;
+    float: left;
+  }
+  .custom_class .col-md-4.pl-0 {
+    padding: 0;
+  }
+  .custom_class  .col-md-4.pr-0 {
+    padding: 0;
+  }
+  .col-md-4.px-0.bottom_pd {
+    margin-bottom: 15px;
+  }
+  .custom_width_search{padding:0!important; width:100%!important; margin-top:5px;}
+  .add-nutrition.custom_class .profile-img {
+    text-align: center;
+  }
+  .add-nutrition-wrapper .add-nutrition .upload-image{    margin: 30px auto!important;}
+  .col-md-2.pl-0.padding-t {
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .p-none{padding:0;}
+  .col-md-5.pr-0.custom_search {
+    padding: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .row.mx-0.p-custom {
+    padding: 0 15px;
+  }
+  .row.mx-0.p-custom .col-md-9.pr-0 {
+    padding: 0;
+    margin-top: 15px;
+  }
+  .profile-wrapper .profile-img img {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+  }
+  .add-sub-admin-wrapper {
+    margin: 0!important;
+  }
+  .manage-subadmin-wrapper{ margin: 0!important;}
+  .manage-patient-wrapper {
+    margin: 0!important;
+  }
+  .manage-health-insights-wrapper{ margin: 0!important;}
+  .manage-symptom-wrapper{ margin: 0!important;}
+  .manage-doctor-wrapper{margin: 0!important;}
+  .manage-psychologist-wrapper{margin: 0!important;}
+  .manage-specialty-wrapper {
+    margin: 0!important;
+  }
+  .add-subscription-wrapper{margin: 0!important;}
+  .manage-subscription-wrapper{margin: 0!important;}
+  .manage-coupon-wrapper{margin: 0!important;}
+  .add-nutrition-wrapper{margin: 0!important;}
+  .manage-nutrition-wrapper{margin: 0!important;}
+  .main>div{margin: 0!important;padding:0!important;}
+  .patient-details .col-md-4.pl-0 {
+    padding: 0;margin-bottom: 20px;
+  }
+  .patient-details .col-md-8.pr-0 {
+    padding: 0;
+  }
+  .patient-details .col-md-4.pr-0 {
+    padding: 0;
+  }
+  .patient-details .row.mx-0 .col-md-4.pl-0 {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .patient-details .basic-details {
+    margin-bottom: 30px;
+    padding: 27px 0px!important;
+  }
+  .patient-details .basic-details .details-image {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .patient-details .row.mx-0 .col-md-12.px-0 {
+    padding: 0!important;
+    margin-top: 30px;
+  }
+  .patient-details .row.mx-0 .col-md-12.px-0 .family-members{ padding:15px!important;}
+  .patient-details .row.mx-0 .col-md-12.px-0 .appointment-history{ padding:15px!important;}
+  .patient-details .row.mx-0 .col-md-12.px-0 .ratings{ padding:15px!important;}
+  
+  .doctor-details .col-md-4.pl-0 {
+    padding: 0;margin-bottom: 20px;
+  }
+  .doctor-details .col-md-9.pr-0 {
+    padding: 0;
+  }
+  .doctor-details .col-md-4.pr-0 {
+    padding: 0;
+  }
+  .doctor-details .row.mx-0 .col-md-4.pl-0 {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .doctor-details .basic-details {
+    margin-bottom: 30px;
+    padding: 27px 0px!important;
+  }
+  .doctor-details .basic-details .details-image {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .doctor-details .row.mx-0 .col-md-12.px-0 {
+    padding: 0!important;
+    margin-top: 30px;
+  }
+  .doctor-details .row.mx-0 .col-md-12.px-0 .family-members{ padding:15px!important;}
+  .doctor-details .row.mx-0 .col-md-12.px-0 .appointment-history{ padding:15px!important;}
+  .doctor-details .row.mx-0 .col-md-12.px-0 .ratings{ padding:15px!important;}
+  
+  button.btn.btn-primary.add-psychologist-btn.shadow-none {
+    padding: 7px 10px;
+  }
+  span.toggle-sidebar-menu {
+    display: none;
+  }
+  span.toggle-sidebar-mobile-menu {
+    float: left;
+    left: 20px;
+    position: absolute;
+    display: inline-block;
+  }
+  .pro-sidebar-header i.fa.fa-times {
+    position: absolute;
+    right: 11px;
+    z-index: 1000000000;
+    font-size: 20px;
+  }
+  .pro-sidebar .pro-sidebar-header {
+    justify-content: left!important;
+    align-items: center;
+    padding-left: 16px;
+  }
+  .navbar .dropdown-menu-notifications {
+  
+    left: -108px!important;
+    width: 320px!important;
+    
+  }
+  .profile-wrapper .profile-img img {
+    width: 100px !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .profile-wrapper .profile-img img {
+    width: 100px !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .patient-details .basic-details .details-image {
+    width: 100px !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .doctor-details .basic-details .details-image{
+    width: 100px !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 100px;
+    object-fit: cover;
+  }
+  }
+  
